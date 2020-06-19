@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小涂的人间观察笔记-与我</title>
+    <link rel="stylesheet" href="./css/me.css">
+</head>
+<body>
+    <!--页眉区header-->
+    <div id="header"> 
+        <p class="title">小涂的人间观察笔记</p>
+        <p class="story">our   story   begins</p>
+    </div>
+    <!--end of header-->
+    <!--悬浮导航list-->
+    <div id="list">
+        <div class="inner">
+            <a class="home" href="./index.html">首页</a>
+            <a class="me" href="./you.html">与你</a>
+            <a class="world" href="./world.html">与世界</a>
+        </div>
+    </div>
+    <!--end fof list-->
+    <!--主体内容introduction，分为左右两部分-->
+    <div id="introduction">
+        <!--左边内容区left，分为profile,contact,skills,todo四个部分-->
+        <div class="left">
+            <div class="profile">
+                <div class="photo"></div>
+                <div class="name">涂译文</div>
+            </div>
+            <div class="contact">
+                <table class="co">
+                    <tr>
+                        <td class="title"><strong>CONTACT</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="method">TELE：</td>
+                        <td class="content">13623834336</td>
+                    </tr>
+                    <tr>
+                        <td class="method">E-mail：</td>
+                        <td class="content">654818771@qq.com</td>
+                    </tr>
+                    <tr>
+                        <td class="method">QQ：</td>
+                        <td class="content">654818771</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="skills">
+                <table class="sh">
+                    <tr>
+                        <td class="title"><strong>SKILLS&HOBBIES</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="type">英语：</td>
+                        <td class="content">大学英语四级676分</td>
+                    </tr>
+                    <tr>
+                        <td class="type">法语：</td>
+                        <td class="content">法语知识测试B2水平</td>
+                    </tr>
+                    <tr>
+                        <td class="type">普通话：</td>
+                        <td class="content">一级乙等</td>
+                    </tr>
+                    <tr>
+                        <td class="type">摄影：</td>
+                        <td class="content">★★★★☆</td>
+                    </tr>
+                    <tr>
+                        <td class="type">手工：</td>
+                        <td class="content">★★★★☆</td>
+                    </tr>
+                    <tr>
+                        <td class="type">古筝：</td>
+                        <td class="content">★★★☆☆</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="todo">
+                <table class="wrapper">
+                    <tr>
+                        <td class="title">
+                            小涂每天要做什么？
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="answers">
+                            <ul class="answer_list">
+                                <li class="item">
+                                    <input class="radio" type="radio" value="1" name="1" id="answer11" onclick="if (document.getElementById('answer1othertext') != null) document.getElementById('answer1othertext').value='';checkconditions(this.value, this.name, this.type)">
+                                    <label for="answer11" class="answertext">吃好吃的</label>
+                                </li>
+                                <li class="item">
+                                    <input class="radio" type="radio" value="2" name="1" id="answer12" onclick="if (document.getElementById('answer1othertext') != null) document.getElementById('answer1othertext').value='';checkconditions(this.value, this.name, this.type)">
+                                    <label for="answer12" class="answertext">开开心心</label>
+                                </li>
+                                <li class="item">
+                                    <input class="radio" type="radio" value="3" name="1" id="answer13" onclick="if (document.getElementById('answer1othertext') != null) document.getElementById('answer1othertext').value='';checkconditions(this.value, this.name, this.type)">
+                                    <label for="answer13" class="answertext">看风景</label>
+                                </li>
+                                <li class="item">
+                                    <input class="radio" type="radio" value="4" name="1" id="answer14" onclick="if (document.getElementById('answer1othertext') != null) document.getElementById('answer1othertext').value='';checkconditions(this.value, this.name, this.type)">
+                                    <label for="answer14" class="answertext">运动运动运动</label>
+                                </li>
+                                <li class="item">
+                                    <input class="radio" type="radio" value="5" name="1" id="answer15" onclick="if (document.getElementById('answer1othertext') != null) document.getElementById('answer1othertext').value='';checkconditions(this.value, this.name, this.type)">
+                                    <label for="answer15" class="answertext">静止</label>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--end of left-->
+        <!--右边内容区right，分为experience,education,awards,message四个部分-->
+        <div class="right">
+            <div class="experience">
+                <table class="ex">
+                    <tr>
+                        <td class="title"><strong>EXPERIENCE</strong></td>
+                    </tr>
+                    <tr>
+                        <td  class="content">初中三年任班团委文宣委员</td>
+                    </tr>
+                    <tr>
+                        <td class="content">高中三年任班团委宣传委员，带领班级参加多项文体活动并取得优异成绩</td>
+                    </tr>
+                    <tr>
+                        <td class="content">大一学年任校文澜网络技术部干事、院创业实践部干事，班级团支部宣传委员</td>
+                    </tr>
+                    <tr>
+                        <td class="content">大二学年任校文澜网络技术部干事</td>
+                    </tr>
+                    <tr>
+                        <td class="content">参与的大学生创新创业训练项目入选国家级立项，多次参加博文杯比赛</td>
+                    </tr>
+                    <tr>
+                        <td class="content">多次参加义务献血等志愿活动</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="education">
+                <table class="ed">
+                    <tr>
+                        <td class="title"><strong>EDUCATION</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="time">2006-2010</td>
+                        <td class="content">郑州市黄河路第一小学</td>
+                    </tr>
+                    <tr>
+                        <td class="time">2010-2012</td>
+                        <td class="content">聚源路小学</td>
+                    </tr>
+                    <tr>
+                        <td class="time">2012-2015</td>
+                        <td class="content">郑州市第八十六中学</td>
+                    </tr>
+                    <tr>
+                        <td class="time">2015-2018</td>
+                        <td class="content">郑州外国语学校</td>
+                    </tr>
+                    <tr>
+                        <td class="time">2018-2020</td>
+                        <td class="content">中南财经政法大学</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="awards">
+                <table class="aw">
+                    <tr>
+                        <td class="title"><strong>AWARDS</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="content">2014-2015学年获市三好学生</td>
+                    </tr>
+                    <tr>
+                        <td  class="content">2015-2016上学期、2015-2016下学期、2016-2017上学期连续获得优秀团干部</td>
+                    </tr>
+                    <tr>
+                        <td class="content">郑州外国语学校2018届优秀毕业生</td>
+                    </tr>
+                    <tr>
+                        <td class="content">2018-2019学年共青团工作五四表彰中获优秀学生干部</td>
+                    </tr>
+                    <tr>
+                        <td class="content">2018-2019学年获校三等奖学金</td>
+                    </tr>
+                    <tr>
+                        <td class="content">参与大学生创新创业训练项目并获得国家级立项</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="message">
+                <table class="wrapper">
+                    <tr>
+                        <td class="title">
+                            你对小涂有什么话，请大声说出来吧！
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="answers">
+                            <p>
+                                <textarea class="textarea  empty" name="21" id="answer21" rows="5" cols="40"></textarea>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--end of right-->
+    </div>
+    <!--end of introduction-->
+    <!--页脚区footer-->
+    <div id="footer">
+        <p class="tail">愿世间美好与你环环相扣</p>
+    </div>
+    <!--end of footer-->
+</body>
+</html>

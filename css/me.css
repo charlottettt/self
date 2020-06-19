@@ -1,0 +1,356 @@
+@font-face{
+    font-family: 'AfternoonTea';
+    src: url(../fonts/新蒂下午茶字体基本版.ttf);
+}
+@font-face{
+    font-family: 'Langoustine';
+    src: url(../fonts/Langoustine.ttf);
+}
+@font-face{
+    font-family: 'BrushStrokes';
+    src: url(../fonts/BrushStrokes.ttf);
+}
+@font-face{
+    font-family: 'Brad';
+    src: url(../fonts/BRADHITC.TTF);
+}
+@font-face{
+    font-family: 'balls';
+    src: url(../fonts/新蒂小丸子字体高级版.ttf);
+}
+
+body,p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../img/bg.JPG);
+    font:12px/1 "\u5b8b\u4f53", Tahoma, Geneva, sans-serif; 
+    font-family: "Microsoft YaHei";
+    font-family: "SimSun";
+}
+
+div{
+    display: block;
+}
+
+a{
+    border: 0;
+    background-color: transparent;
+}
+
+img{
+    display: block;
+    padding: 0;
+}
+
+#header{
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    clear: right;
+    background-color: rgba(0,0,14,7%);
+}
+
+#header p.title{
+    font-family: "AfternoonTea";
+    font-size: 35px;
+    float: left;
+    padding-top: 4px;
+}
+
+#header p.story{
+    float: left;
+    font-size: 35px;
+    padding-top: 4px;
+    padding-left: 100px;
+    font-family: "BrushStrokes";
+}
+
+#footer{
+    padding-top: 12px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    background-color: rgba(0,0,14,7%);
+    padding-bottom: 12px;
+}
+
+#footer p.tail{
+    font-family: "AfternoonTea";
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+#list{
+    float: left;
+    overflow: hidden;
+    z-index: 100;
+    position: fixed;
+    left: 10px;
+    top: 53px;
+    background-color: rgba(255,255,255,60%);
+}
+
+#list div.inner a{
+    text-align: center;
+    min-height: 34px;
+    display: block;
+    opacity: 1;
+    float: left;
+    writing-mode: vertical-lr;
+    text-decoration: none;
+    font-family: "balls";
+    font-size: 22px;
+    font-weight: 550;
+    padding-right: 10px;
+    color: #327aa2;
+    border-top: solid 4px #327aa2;
+}
+
+#introduction{
+    padding-top: 53px;
+    width: 90%;
+    height: auto;
+}
+
+#introduction div.left{
+    width: 30%;
+    margin-left: 5%;
+    position: relative;
+    background-color: rgba(143,78,154,20%);
+    height: auto;
+    float: left;
+}
+
+#introduction div.right{
+    width: 60%;
+    position: relative;
+    height: auto;
+    padding-left: 5%;
+    float: left;
+}
+
+#introduction div.left div.profile{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+#introduction div.left div.profile div.photo{
+    background-image: url(../img/self.JPG);
+    background-size: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-top: 60px;
+}
+
+#introduction div.left div.profile div.name{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "balls";
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2;
+}
+
+#introduction div.contact,div.skills{
+    width: 100%;
+    height: auto;
+    margin-top: 36px;
+    margin-bottom: 20px;
+}
+
+#introduction div.contact table.co,div.skills table.sh{
+    width: 100%;
+}
+
+#introduction div.contact table.co td.title,div.skills table.sh td.title{
+    background-color: rgba(112,107,108,0.6);
+    font-size: 22px;
+    font-family: "BrushStrokes";
+    text-align: center;
+    vertical-align: center;
+    height: 35px;
+}
+
+#introduction div.contact table.co td.method{
+    width: 40%;
+    text-align: right;
+    height: 35px;
+    font-size: 20px;
+    font-family: "Brad";
+    font-weight: 700;
+}
+
+#introduction div.contact table.co td.content{
+    width: 60%;
+    text-align: left;
+    height: 35px;
+    font-size: 20px;
+    font-family: "Brad";
+    font-weight: 700;
+}
+
+#introduction div.skills table.sh td.type{
+    width: 40%;
+    text-align: right;
+    height: 35px;
+    font-size: 20px;
+    font-family: "balls";
+}
+
+#introduction div.skills table.sh td.content{
+    width: 60%;
+    text-align: left;
+    height: 35px;
+    font-size: 20px;
+    font-family: "balls";
+}
+
+#introduction div.left div.todo{
+    padding-top: 40px;
+}
+
+#introduction div.left div.todo table.wrapper{
+    width: 100%;
+    border: 1px solid rgba(112,107,108,0.6);
+    padding: 1px;
+    background-color: rgba(255,255,255,60%);
+}
+
+#introduction div.left div.todo table.wrapper td.title{
+    font-size: 22px;
+    font-weight: 200;
+    background-color: rgba(112,107,108,0.6);
+    text-align: left;
+    padding: 6px 10px;
+    font-family: "AfternoonTea";
+}
+
+#introduction div.left div.todo table.wrapper td.answers{
+    padding: 11px 24px 16px 37px;
+    text-align: left;
+}
+
+#introduction div.left div.todo table.wrapper td.answers ul{
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+#introduction div.left div.todo table.wrapper li.item{
+    list-style-type: none;
+    text-align: left;
+    margin: 0% 0% 0.5em 0.5em;
+}
+
+
+#introduction div.left div.todo table.wrapper td.answers li.item label{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 17px;
+    font-family: "balls";
+    font-weight: 300;
+}
+
+#introduction div.right div.message{
+    margin-bottom: 30px;
+}
+
+#introduction div.right div.message table.wrapper{
+    width: 100%;
+    margin: 0 auto 10px auto;
+    border: 1px solid rgba(80,103,148,60%);
+    padding: 1px;
+    background-color: rgba(255,255,255,60%);
+}
+
+#introduction div.right div.message td.title{
+    font-family: "balls";
+    font-size: 22px;
+    background-color: rgba(80,103,148,60%);
+    text-align: left;
+    padding: 6px 10px;
+}
+
+#introduction div.right div.message td.answers textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 1em;
+    padding: 0;
+    width: 600px;
+}
+
+#suggestion div.message td.answers label.hide{
+    font-weight: normal;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+#introduction div.right div.experience,div.education,div.awards{
+    width: 100%;
+    line-height: 2.0;
+    overflow: hidden;
+    margin-top: 17px;
+    margin-bottom: 30px;
+}
+
+#introduction div.right table.ex,table.ed,table.aw{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#introduction div.right table td{
+    border-width:0px 1px 1px 0px; 
+    padding:2px 10px;
+}
+
+#introduction div.right table.ex td.title,#introduction div.right table.ed td.title,#introduction div.right table.aw td.title{
+    height: 42;
+    font-size: 26px;  
+    font-family: "BrushStrokes";
+    color: #506794;
+}
+
+#introduction div.right table.ex td.content,#introduction div.right table.aw td.content{
+    font-size: 17px;
+    height: 32px;
+    width: 100%;
+    font-family: "balls";
+    color: #555;
+    background:rgba(255,255,255,60%);
+}
+
+#introduction div.right table.ed td.time{
+    width: 30%;
+    font-size: 22px;
+    height: 32px;
+    font-family: "balls";
+    color: #555;
+    background:rgba(255,255,255,60%);
+}
+
+#introduction div.right table.ed td.content{
+    width: 70%;
+    font-size: 17px;
+    height: 32px;
+    font-family: "balls";
+    color: #555;
+    background:rgba(255,255,255,60%);
+}

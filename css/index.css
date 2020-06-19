@@ -1,0 +1,308 @@
+@font-face{
+    font-family: 'AfternoonTea';
+    src: url(../fonts/新蒂下午茶字体基本版.ttf);
+}
+@font-face{
+    font-family: 'BrushStrokes';
+    src: url(../fonts/BrushStrokes.ttf);
+}
+@font-face{
+    font-family: 'Broodfath';
+    src: url(../fonts/broodfath.ttf);
+}
+@font-face{
+    font-family: 'Brad';
+    src: url(../fonts/BRADHITC.TTF);
+}
+@font-face{
+    font-family: 'balls';
+    src: url(../fonts/新蒂小丸子字体高级版.ttf);
+}
+
+body,p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../img/bg.JPG);
+    font:12px/1 "\u5b8b\u4f53", Tahoma, Geneva, sans-serif; 
+    font-family: "Microsoft YaHei";
+    font-family: "SimSun";
+}
+
+div{
+    display: block;
+}
+
+a{
+    border: 0;
+    background-color: transparent;
+}
+
+#header{
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    clear: right;
+    background-color: rgba(0,0,14,7%);
+}
+
+#header p.title{
+    font-family: "AfternoonTea";
+    font-size: 35px;
+    float: left;
+    padding-top: 4px;
+}
+
+#header p.story{
+    float: left;
+    font-size: 35px;
+    padding-top: 4px;
+    padding-left: 100px;
+    font-family: "BrushStrokes";
+}
+
+#footer{
+    padding-top: 12px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    background-color: rgba(0,0,14,7%);
+    padding-bottom: 12px;
+}
+
+#footer p.tail{
+    font-family: "AfternoonTea";
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+#con_1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 560px;
+    padding-top: 53px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+#con_1 div.welcome_img{
+    background-image: url(../img/fish.JPG);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 554px;
+    width: 780px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+#con_1 div.welcome_words{
+    height: 554px;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+}
+
+#con_1 div.welcome_words h1.welcome{
+    font-family: "BrushStrokes";
+    font-size: 90px;
+    color: #a9a9a9;
+    padding-left: 45%;
+    padding-top: 80px;
+}
+
+#con_1 div.welcome_words h1.notes{
+    font-size: 70px;
+    margin: 0;
+    padding-left: 30%;
+    padding-top: 40px;
+}
+
+#con_1 h1.notes span{
+    font-family: "AfternoonTea";
+}
+
+#con_1 h1.notes span.tus{
+    color: #c5c5c5;
+}
+#con_1 h1.notes span.ren{
+    color: #cc7161;
+}
+#con_1 h1.notes span.jian{
+    color: #e7d192;
+}
+#con_1 h1.notes span.guan{
+    color: #b3c87d;
+}
+#con_1 h1.notes span.cha{
+    color: #8fb1cf;
+}
+#con_1 h1.notes span.biji{
+    color: #a98fa9;
+}
+ 
+#con_2{
+    width: 100%;
+    position: relative;
+    padding-top: 607px;
+    display: block;
+    height: 630px;
+}
+
+#con_2 div.inner{
+    width: 100%;
+    position: absolute;
+}
+
+#con_2 div.menu{
+    height: 60px;
+    position: absolute;
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#con_2 div.menu a.item{
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    width: 33.3%;
+    height: 100%;
+    background-color: #ececec;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+}
+
+#con_2 div.menu a.item span.text{
+    font-family: "AfternoonTea";
+    font-size: 30px;
+}
+
+#con_2 div.viewport{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 570px;
+    padding-top: 60px;
+}
+
+#con_2 div.viewport a.flip_item{
+    width: 33.3%;
+    overflow: hidden;
+    text-decoration: none;
+    height: 100%;
+    width: 33.3%;
+    background-size: cover;
+}
+
+#con_2 div.viewport a.i1{
+    background-image: url(../img/1.JPG);
+}
+
+#con_2 div.viewport a.i2{
+    background-image: url(../img/3.JPG);
+}
+
+#con_2 div.viewport a.i3{
+    background-image: url(../img/4.JPG);
+}
+
+#con_2 div.viewport a.flip_item div.flip_letter{
+    font-size: 24px;
+    position: relative;
+    font-weight: 600;
+    font-family: "Broodfath";
+    letter-spacing: 10px;
+    padding-top: 90px;
+}
+
+#con_2 div.viewport a.flip_item div.flip_letter span{
+    text-align: center;
+    min-height: 34px;
+    line-height: 34px;
+    display: block;
+    opacity: 1;
+    padding-bottom: 12px;
+}
+
+#con_2 a.i1 div.flip_letter{
+    color: seashell;
+}
+#con_2 a.i2 div.flip_letter{
+    color: seashell;
+}
+#con_2 a.i3 div.flip_letter{
+    color: seashell;
+}
+
+#con_3{
+    max-width: 1300px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 612.8px;
+}
+
+#con_3 div.article{
+    padding-right: 16px;
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 300px;
+    float: left;
+}
+
+#con_3 div.article div.ar1{
+    font-family: "Brad";
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+#con_3 div.article div.ar2{
+    font-family: "balls";
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+#con_3 div.pic_1{
+    margin-left: 100px;
+    width: calc(100% + 64px + 16px);
+    position: relative;
+    background-image: url(../img/twinkles.JPG);
+    width: 30%;
+    height: 95%;
+    float: left;
+    background-size: cover;
+}
+
+#con_3 div.pic_2{
+    margin-left: -25px;
+    margin-top: 40px;
+    width: calc(100% + 64px + 16px);
+    position: relative;
+    background-image: url(../img/twinkle.JPG);
+    width: 30%;
+    height: 95%;
+    float: left;
+    background-size: cover;
+}
